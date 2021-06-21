@@ -1,7 +1,6 @@
 import React from "react";
-import header from "./header";
-import main from "./main";
-import footer from "./footer";
+import Header from "./header";
+import Footer  from "./footer";
 
 
 
@@ -13,15 +12,17 @@ render(){
 return(
 
 
+
 <div>
-  <header/>
-  <main/>
-  <footer/>
-  </div>
+  <Header/>
+  <Main/>
+  <Footer/>
+ 
+  
 
 
 
-
+</div>
 )
 
 

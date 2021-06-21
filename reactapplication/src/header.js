@@ -1,23 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-class header extends React.Component{
-render(){
-return(
-<div>
-<h1>horns gallery</h1>
+class Header extends Component {
 
-
-
-</div>
-
-
-
-)
-
-
+    render() {
+        
+        return (
+            <div>
+                <h1>horns gallery</h1>
+                
+            </div>
+        )
+    }
 }
 
-
-
-}
-export default header;
+export default Header;
