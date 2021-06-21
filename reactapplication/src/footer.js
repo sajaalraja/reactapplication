@@ -1,22 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-class footer extends React.Component{
-render(){
-return(
-<div>
-<p>&copyright</p>
+class Footer extends Component {
 
+    render() {
+       
+        return (
+            <div>
+               <footer>
 
-</div>
-
-
-
-)
-
-
+                   <p>saja alraja &copy</p>
+               </footer>
+            </div>
+        )
+    }
 }
 
-
-
-}
-export default footer;
+export default Footer;
